@@ -1,0 +1,13 @@
+{
+  "name": "pixiv image extension",
+  "description": "Avoid 403 and display the image.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "declarative_net_request": {
+    "rule_resources": [
+      { "id": "ruleset_1", "enabled": true, "path": "rules.json" }
+    ]
+  },
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*/*"]
+}
