@@ -3,6 +3,11 @@
   "description": "Avoid 403 and display the image.",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "declarative_net_request": {
     "rule_resources": [
       { "id": "ruleset_1", "enabled": true, "path": "rules.json" }
